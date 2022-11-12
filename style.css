@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Oriya&display=swap');
+
+div{
+    background: black;
+    color: aqua;
+}
+.abcd{
+    background:yellow;
+    color: blue;
+    letter-spacing: 10px;
+}
+#idattribute{
+    color: green;
+    font-family: 'Noto Serif Oriya', serif;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    text-align: right;
+}
+#sampleid{
+    background: rgb(255, 63, 108);
+    word-spacing: 20px;
+}
+#hexadecimal{
+    background: #ffd674;
+    font-family: 'Permanent Marker', cursive;
+}
+#rgba{
+    background: rgba(155, 27, 93, 0.8);
+    font-family: 'Chiller';
+}
+body{
+    background: url(background.jpg) /* no-repeat */ repeat-x;
+    background-size: cover;
+}
+.sampleBox{
+    background: red;
+    margin: 5px; /*margin: top, right, bottom, left*/
+    padding: 20px;
+    border: 5px solid green;
+    box-shadow: 20px 20px 20px 20px yellow;
+    font-weight: bold;
+    font-style: italic;
+}
+.overflowsample{
+    width: 200px;
+    height: 500px;
+    overflow-y: scroll;
+    font-size: 8px;
+    text-indent: 20px;
+}
+
+/*https://www.cssmatic.com/*/
